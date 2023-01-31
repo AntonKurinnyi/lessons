@@ -1,0 +1,64 @@
+@import url(reset.css);
+
+[target] {
+	background-color: orange;
+}
+
+ul {
+	color:rgb(21, 21, 210);
+}
+span{
+	color:rgb(53, 184, 38);
+}
+
+h1 {
+color:orange;
+}
+
+h3 {
+	color: red;
+}
+
+.info-when-one {
+	color:blueviolet;
+}
+
+#when {
+	color:orangered;
+}
+
+#history {
+	color:greenyellow;
+}
+
+div.to-start {
+color:aquamarine;
+}
+
+.personage.two {
+	color:rgb(225, 174, 103);
+}
+
+.personage,.one {
+color:aqua;
+}
+
+.when-happen .info-when-main {
+	color:aquamarine;
+}
+
+.about-production-masks-one + p {
+	color:rgb(213, 21, 98);
+}
+
+.about-production-masks-three ~ p {
+	color:rgb(174, 255, 0);
+}
+
+.about-personage-main * {
+	color:orchid;
+}
+mark{
+	background-color:rgb(84, 84, 190);
+	color:aqua
+}
