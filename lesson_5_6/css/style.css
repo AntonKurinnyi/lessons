@@ -1,0 +1,159 @@
+@import url('reset.css');
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+
+body {
+	font-family: "Poppins", sans-serif;
+	color: #6C757D;
+	font-size: 14px;
+	font-weight: 300;
+	background: #E5E5E5;
+}
+
+[class*="__container"]{
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.article {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.article__container {
+}
+.article__text-block {
+	max-width: 816px;
+	margin: 0 auto 80px;
+}
+.article__text-block p {
+	line-height: 1.78; /* 25/14 */
+	margin-bottom: 30px;
+}
+.article__text-block h1 {
+	max-width: 400px;
+}
+
+.article__title {
+	font-size: 25px;
+	color: #212529;
+	line-height: 1.6; /* 40/25 */
+	margin-bottom: 40px;
+	font-weight: 700;
+	max-width: 605px;
+}
+.article__images {
+	max-width: 100%;
+	margin-bottom: 80px;
+}
+.image__1 {
+	margin-right: 30px;
+}
+.article__images {
+	font-size: 0;
+}
+
+
+/* Homework#6 */
+[class*="__container-2"]{
+	max-width: 1470px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.link {
+	display: inline-block;	
+	font-size: 20px;
+	margin: 0 auto 50px 15px;
+	border: 2px solid rgb(141, 108, 108);
+}
+
+.article__images-4 {
+	
+	margin-bottom: 100px;
+}
+.block-2 {
+	max-width: 816px;
+	margin: 0 auto 100px;
+}
+.article__title-block-2{
+	font-size: 25px;
+	color: #212529;
+	line-height: 1.6; /* 40/25 */
+	margin-bottom: 100px;
+	font-weight: 700;
+	max-width: 605px;
+}
+
+.article__images-2{
+	font-size: 0;
+	max-width: 1270px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto 100px;
+}
+.image-5{
+	margin-right: 30px;
+	border-radius: 5px;
+}
+.image-6{
+	border-radius: 5px;
+}
+
+
+
+/* Відпрацювання властивостей: */
+p.homework{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 500;
+	color: rgb(78, 47, 255);
+}
+.border{
+	display: inline-block;
+	margin:20px;
+	color:rgba(175, 47, 62, 0.5);
+	border-top: 5px dotted pink;
+	border-right: 7px solid black;
+	border-bottom: 9px dashed #5e1515;
+	border-left: 15px double #573dad;
+	background-color: #9ba3aa;
+	font-size: 40px;	
+}
+.outline{
+	display: block;
+	margin:20px;
+	padding: 5px;
+	color:rgb(46, 153, 153) ;
+	font-size: 40px;
+	outline: 5px solid red;
+	background-color:rgb(195, 185, 185);
+	height: 60px;
+	border: 10px dotted green;
+}
+.border-radius{
+	display: inline-block;
+	margin:0 auto 50px;
+	padding: 5px;
+	font-size: 40px;
+	border: 4px solid yellowgreen;
+	height:80px;
+	border-radius:30% 70% 43% 57% / 30% 30% 70% 70% ;
+	overflow: hidden;
+}
+.box-shadow{
+	display: inline-block;
+	margin:30px;
+	padding: 5px;
+	font-size: 40px;
+	border: 2px solid blueviolet;
+	box-shadow:2px 2px 5px 2px red;
+	opacity:0.2;
+}
+p.visibility{
+	visibility: hidden;
+}
+p.opacity{
+	opacity: 0;
+}
